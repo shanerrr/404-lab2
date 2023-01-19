@@ -23,6 +23,8 @@ def connect():
             full_data += data
         print(full_data)
 
+        s.close()
+
 
 def main():
     connect()
